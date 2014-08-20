@@ -7,4 +7,8 @@
 <h3>Tags</h3>
 <p><?php the_tags(); ?></p>
 
+<?php
+comments_template('', true);
+?>
+
 <?php get_footer(); ?>
